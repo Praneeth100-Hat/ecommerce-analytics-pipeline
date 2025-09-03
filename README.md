@@ -1,18 +1,14 @@
 # 🛒 Ecommerce Analytics Pipeline  
 
-End-to-end **ETL + Analytics project** built with Python, Pandas, SQLite, and Jupyter.  
-It extracts raw ecommerce sales data, cleans/transforms it, loads into SQLite, and generates reports & visualizations.  
+End-to-end **ETL + analytics pipeline** project using **Python, Pandas, SQLite, and Jupyter**.  
+It extracts raw ecommerce sales data, cleans & transforms it, loads it into **SQLite**, and delivers **reports & visualizations**.  
 
 ---
 
-## 📂 Project Structure  
+## ⚙️ Setup Instructions  
 
-```text
-ecommerce-analytics-pipeline/  
-│── data/                 # Raw, staging, and cleaned datasets  
-│── notebooks/            # Jupyter notebooks for analytics & exploration  
-│── reports/              # Final CSV reports & charts  
-│── src/                  # ETL scripts (extract, transform, load)  
-│── ecommerce.db          # SQLite database  
-│── requirements.txt      # Python dependencies  
-│── README.md             # Project documentation  
+Clone the repository:
+
+```bash
+git clone https://github.com/Praneeth100-Hat/ecommerce-analytics-pipeline.git
+cd ecommerce-analytics-pipeline
